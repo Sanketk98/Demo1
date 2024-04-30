@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Com.winvest.test.GraphData">
+        <methods>
+          <include name="trancationDropDown"/>
+          <include name="Gmv_collectionDropDown"/>
+          <include name="profitDropDown"/>
+          <include name="rvenuveDropDown"/>
+          <include name="trancationPopMessage"/>
+          <include name="tearDown"/>
+          <include name="profitPopMessage"/>
+          <include name="revunveGraphAligment"/>
+          <include name="trancationGraphAligment"/>
+          <include name="profitGraphAligment"/>
+          <include name="revenuvePopMessage"/>
+          <include name="Gmv_collectionPopMessage"/>
+          <include name="Gmv_collectionGraphAligment"/>
+        </methods>
+      </class> <!-- Com.winvest.test.GraphData -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
